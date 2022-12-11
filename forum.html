@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FormaTIdin</title>
+</head>
+
+<body>
+    <nav class="orange">
+        <a href="index.html">FormaTIdin</a>
+        <div class="right">
+            <a href="#">Go to Forum</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="center">
+            <h1>Forum Mahasiswa Teknik Informatika</h1>
+            <h1>Universitas Dian Nuswantoro</h1>
+        </header>
+    </div>
+    <div class="container">
+        <h1 class="center">Forum</h1>
+        <div class="post">
+            <img src="img/profile.jpg" alt="foto-profile" class="foto-profile">
+            <p>Anonymous</p>
+            <p>Angkatan XII</p>
+            <br>
+            <hr>
+            <form>
+                <input type="text" placeholder="Judul Post" style="width: 99%;" id="judul-post">
+                <br>
+                <hr>
+                <textarea placeholder="Isi postingan" name="isi" id="isi" cols="116" rows="15"
+                    style="width: 99%;"></textarea>
+                <br>
+                <button type="submit" id="submit-post"> Post</button>
+            </form>
+        </div>
+        <div class="post" id="post-container">
+            <!-- <div class="user-post">
+                <h3></h3>
+                <p></p>
+            </div> -->
+        </div>
+    </div>
+    <footer class="center orange white-text" style="margin-top: 50px;">
+        <h3>Copyright &copy; 2020 FormaTIdin</h3>
+    </footer>
+    <script src="js/forum.js"></script>
+</body>
+
+</html>
