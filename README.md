@@ -2,6 +2,6 @@
 
 Forum Mahasiswa Teknik Informatika Udinus
 
-Oleh:
+Oleh:<br>
 Abdillah Fakhri Hasani <br>
 Lilik Wahyu Nugroho ()
